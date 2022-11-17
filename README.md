@@ -203,9 +203,9 @@ id: string
 
 В майнд-карте представлен набор тестов для тестирования объекта **USER**. Подробная проверка расписана для запросов **Get List** и **Update User**
 
-![Майнд-карта объекта User](https://i.imgur.com/jJcv4cA.jpeg)
+![Майнд-карта объекта User](https://i.imgur.com/kauJneC.jpeg)
 
-Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
+//Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
 
 
 
