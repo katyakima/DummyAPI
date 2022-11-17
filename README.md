@@ -224,7 +224,7 @@ id: string
 ![Майнд-карта объекта User](https://i.imgur.com/kauJneC.jpeg)
 
 //Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
-
+Загрузить МК в репозиторий
 
 ### POST
 ___
@@ -307,5 +307,12 @@ picture: string(url)
 }
 ```
 
+#### Майнд-карта DummyAPI_Post
 
+В майнд-карте представлен набор тестов для тестирования объекта **POST**. Подробная проверка расписана для запросов **Get Post List** и **Create Post**
+
+![Майнд-карта объекта User](https://i.imgur.com/OecxjTh.png)
+
+//Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
+Загрузить МК в репозиторий
 
