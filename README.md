@@ -38,7 +38,7 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
-
+___
 #### GET /user/:id (Get User data by ID)
 
 Возвращает инфо об определенном пользователе и инфо о его местонахождении. Необходим ID существующего пользователя.
@@ -74,7 +74,7 @@ country: string(length: 2-30)
 timezone: string(Valid timezone value ex. +7:00, -1:00)
 }
 ```
-
+___
 #### POST /user/create (Create New User)
 
 Создает нового пользователя. Возвращает информацию о вновь созданном пользователе.
@@ -130,6 +130,7 @@ picture: string(url)
 location: object(Location)
 }
 ```
+___
 #### PUT /user/:id (Update User)
 
 Обновляет информацию о существующем пользователе. Необновляемые поля: id, email, registerDate, updatedDate. Возвращает информацию о пользователе.
@@ -185,7 +186,7 @@ picture: string(url)
 location: object(Location)
 }
 ```
-
+___
 #### DELETE /user/:id (Delete User)
 
 Удаляет пользователя по id. Возвращает ответ с id удаленного пользователя.
@@ -199,7 +200,7 @@ id: string
 ```
 
 
-
+![Майнд-карта объекта User](https://drive.google.com/file/d/1s2c3jIIcRt4rV_fyl7lPj7m6HK_jzgQS/view?usp=sharing)
 1
 1
 1
