@@ -186,11 +186,17 @@ location: object(Location)
 }
 ```
 
+#### DELETE /user/:id (Delete User)
 
+Удаляет пользователя по id. Возвращает ответ с id удаленного пользователя.
 
+**Response body:**  
 
-
-
+```javascript
+{
+id: string
+}
+```
 
 
 
