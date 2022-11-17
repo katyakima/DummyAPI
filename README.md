@@ -4,6 +4,19 @@
 
 ## Оглавление
 
+1. [Описание проекта](#Описание-проекта)
+    1. [USER](#USER)
+        1. [GET /user (Get List)](#get-user--get-list)
+        2. [GET /user/:id (Get User data by ID)](#get-userid-get-user-data-by-id)
+        3. [POST /user/create (Create New User)](#post-usercreate-create-new-user)
+        4. [PUT /user/:id (Update User)](#put-userid-update-user)
+        5. [DELETE /user/:id (Delete User)](#put-userid-update-user)
+2. [Майнд-карта](#Майнд-карта)
+3. [Тест-кейсы](#Тест-кейсы)
+4. [Баг-репорты](#Баг-репорты)
+5. [Коллекции POSTMAN](#Коллекции-POSTMAN)
+6. [Автотесты](#Автотесты)
+
 ## Описание проекта
 
 [Dummyapi.io](https://dummyapi.io/) - этот проект представляет собой сервис для тестирования API. Он устроен как социальная сеть с пользователями, постами, тегами и комментариями. Для выполнения запросов необходим app-id, который генерируется автоматически в личном кабинете после регистрации на сайте. Для тестирования  выбраны объекты **Post** и **User**.
