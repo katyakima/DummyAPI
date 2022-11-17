@@ -199,7 +199,7 @@ id: string
 }
 ```
 
-![Майнд-карта объекта User](https://i.imgur.com/ZsbcVwg.png)
+![Майнд-карта объекта User](https://i.imgur.com/jJcv4cA.jpeg)
 
 
 
