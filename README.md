@@ -199,8 +199,8 @@ id: string
 }
 ```
 
-
-![Майнд-карта объекта User](https://drive.google.com/file/d/1s2c3jIIcRt4rV_fyl7lPj7m6HK_jzgQS/view?usp=sharing)
+![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+![Майнд-карта объекта User](https://drive.google.com/file/d/1s2c3jIIcRt4rV_fyl7lPj7m6HK_jzgQS/view "Почему орк?")
 1
 1
 1
