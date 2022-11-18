@@ -17,7 +17,7 @@
         2. [POST /post/create (Create New Post)](#post-postcreate-create-new-post)
         3. [Майнд-карта DummyAPI_Post](#майнд-карта-dummyapi_post)
 2. [Тест-кейсы](#тест-кейсы)
-3. [Баг-репорты](#Баг-репорты)
+3. [Баг-репорты](#баг-репорты)
 4. [Коллекции POSTMAN](#Коллекции-POSTMAN)
 5. [Автотесты](#Автотесты)
 
@@ -319,3 +319,13 @@ picture: string(url)
 
 В этой [Google.Таблице](https://docs.google.com/spreadsheets/d/1mTMu9f7VMrH6kGZej4_bimZa1AZvG6hpIVeUP13V-3c/edit?usp=sharing) представлены примеры оформления Чек-листов и Тест-кейсов к  проекту DummyAPI. Более подробно рассмотрены объекты: UPDATE User, UPDATE User Location и DELETE User.
 
+## Баг-репорты
+
+В данной [Google.Таблице](https://docs.google.com/spreadsheets/d/10XM0h7lcIhxQVV0z4RD2aIAfaBfj4bBh8bFTQ33ZNSg/edit?usp=sharing) представлены примеры баг-репортов, найденных при тестировании проекта DummyAPI.
+
+## Коллекции POSTMAN
+
+
+
+
+## Автотесты
