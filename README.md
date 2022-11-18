@@ -356,4 +356,11 @@ pm.collectionVariables.set("post_id", jsonData.id)
 ![Ответы для запроса GetPostById_1](https://i.imgur.com/fcgD1Pi.jpeg)
 ![Ответы для запроса GetPostById_2](https://i.imgur.com/uYv7r96.jpeg)
 
+### UPDATE /post/:id (Update Post Data By Id)
+
+Создано 19 тестов с проверкой  доступных и недоступных для обновления полей. 
+
+![Ответы для запроса UpdatePost_1](https://i.imgur.com/YblTagZ.jpeg)
+![Ответы для запроса UpdatePost_2](https://i.imgur.com/OtCtZ5J.jpeg)
+
 
