@@ -1,0 +1,553 @@
+{
+	"info": {
+		"_postman_id": "81a0e7be-01ce-44e2-866a-3d69f47bde40",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23089379"
+	},
+	"item": [
+		{
+			"name": "GetPostList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name is OK\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"\r",
+							"pm.test(\"Check body data is array\", function () {\r",
+							"    pm.expect(jsonData.data).to.be.an('array')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body data[0].id is string\", function () {\r",
+							"    pm.expect(jsonData.data[0].id).to.be.an('String')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body data[0].email is undefined\", function () {\r",
+							"    pm.expect(jsonData.data[0].email).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body data[0].owner.id is string\", function () {\r",
+							"    pm.expect(jsonData.data[0].owner.id).to.be.an('String')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body data[19].id is string\", function () {\r",
+							"    pm.expect(jsonData.data[19].id).to.be.an('String')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body data[20] is undefined\", function () {\r",
+							"    pm.expect(jsonData.data[20]).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check limit is 20\", function () {\r",
+							"    pm.expect(jsonData.limit).to.eql(20);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check page is 0\", function () {\r",
+							"    pm.expect(jsonData.page).to.eql(0);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body total is number\", function () {\r",
+							"    pm.expect(jsonData.total).to.be.a('number')\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreatePost",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name is OK\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"    var jsonData = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Check body image\", function () {\r",
+							"    pm.expect(jsonData.image).to.eql(\"http://placeimg.com/640/480\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body likes\", function () {\r",
+							"    pm.expect(jsonData.likes).to.eql(0);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body link\", function () {\r",
+							"    pm.expect(jsonData.link).to.eql(\"http://enid.biz\");\r",
+							"});\r",
+							"\r",
+							"// Проверка массива тегов\r",
+							"\r",
+							"pm.test(\"Check body tags data is array\", function () {\r",
+							"    pm.expect(jsonData.tags).to.be.an('array')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[0]\", function () {\r",
+							"    pm.expect(jsonData.tags[0]).to.eql(\"iure\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[1]\", function () {\r",
+							"    pm.expect(jsonData.tags[1]).to.eql(\"deserunt\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[2]\", function () {\r",
+							"    pm.expect(jsonData.tags[2]).to.eql(\"sunt\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[3] is undefined\", function () {\r",
+							"    pm.expect(jsonData.tags[4]).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"//Конец проверки массива тегов\r",
+							"\r",
+							"pm.test(\"Check body text\", function () {\r",
+							"    pm.expect(jsonData.text).to.eql(\"Ut corporis et omnis et accusamus voluptatum\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body publishDate is string\", function () {\r",
+							"    pm.expect(jsonData.publishDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body updatedDate is string\", function () {\r",
+							"    pm.expect(jsonData.updatedDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"pm.collectionVariables.set(\"post_id\", jsonData.id);\r",
+							"\r",
+							"// Проверка объекта \"owner\"\r",
+							"\r",
+							"pm.test(\"Check body owner.id\", function () {\r",
+							"    pm.expect(jsonData.owner.id).to.eql(\"60d0fe4f5311236168a109ca\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.title\", function () {\r",
+							"    pm.expect(jsonData.owner.title).to.eql(\"ms\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.firstName\", function () {\r",
+							"    pm.expect(jsonData.owner.firstName).to.eql(\"Sara\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.lastName\", function () {\r",
+							"    pm.expect(jsonData.owner.lastName).to.eql(\"Andersen\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.picture\", function () {\r",
+							"    pm.expect(jsonData.owner.picture).to.eql(\"https://randomuser.me/api/portraits/women/58.jpg\");\r",
+							"});\r",
+							"\r",
+							"// Не должно быть полей из User Full: gender,email,dateOfBirth,registerDate,phone,location\r",
+							"\r",
+							"pm.test(\"Check body owner.gender is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.gender).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.email is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.email).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.dateOfBirth is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.dateOfBirth).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.registerDate is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.registerDate).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.phone is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.phone).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.location is undefined\", function () {\r",
+							"    pm.expect(jsonData.owner.location).to.be.an('undefined')\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 0,\r\n    \"link\": \"http://enid.biz\",\r\n    \"tags\": [\r\n        \"iure\",\r\n        \"deserunt\",\r\n        \"sunt\"\r\n    ],\r\n    \"text\": \"Ut corporis et omnis et accusamus voluptatum\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/post/create",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostByID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name is OK\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Check body id\", function () {\r",
+							"    pm.expect(jsonData.id).to.eql(pm.collectionVariables.get(\"post_id\"));\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body image\", function () {\r",
+							"    pm.expect(jsonData.image).to.eql(\"http://placeimg.com/640/480\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body likes\", function () {\r",
+							"    pm.expect(jsonData.likes).to.eql(0);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body link\", function () {\r",
+							"    pm.expect(jsonData.link).to.eql(\"http://enid.biz\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags is array\", function () {\r",
+							"    pm.expect(jsonData.tags).to.be.an('array')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[0]\", function () {\r",
+							"    pm.expect(jsonData.tags[0]).to.eql(\"iure\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[1]\", function () {\r",
+							"    pm.expect(jsonData.tags[1]).to.eql(\"deserunt\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[2]\", function () {\r",
+							"    pm.expect(jsonData.tags[2]).to.eql(\"sunt\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[4] is undefined\", function () {\r",
+							"    pm.expect(jsonData.tags[4]).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body text\", function () {\r",
+							"    pm.expect(jsonData.text).to.eql(\"Ut corporis et omnis et accusamus voluptatum\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body publishDate is string\", function () {\r",
+							"    pm.expect(jsonData.publishDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body updatedDate is string\", function () {\r",
+							"    pm.expect(jsonData.updatedDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"//Объект owner\r",
+							"\r",
+							"pm.test(\"Check body owner.id\", function () {\r",
+							"    pm.expect(jsonData.owner.id).to.eql(\"60d0fe4f5311236168a109ca\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.title\", function () {\r",
+							"    pm.expect(jsonData.owner.title).to.eql(\"ms\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.firstName\", function () {\r",
+							"    pm.expect(jsonData.owner.firstName).to.eql(\"Sara\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.lastName\", function () {\r",
+							"    pm.expect(jsonData.owner.lastName).to.eql(\"Andersen\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.picture\", function () {\r",
+							"    pm.expect(jsonData.owner.picture).to.eql(\"https://randomuser.me/api/portraits/women/58.jpg\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/{{post_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						"{{post_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePost",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name is OK\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Check body id\", function () {\r",
+							"    pm.expect(jsonData.id).to.eql(pm.collectionVariables.get(\"post_id\"));\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body image\", function () {\r",
+							"    pm.expect(jsonData.image).to.eql(\"https://s1.1zoom.ru/big7/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_2560x1600.jpg\");\r",
+							"});\r",
+							"\r",
+							"//я бы хотела найти функцию, которая бы брала кол-ко лайков, которое было до update и сверяло бы его с текущим количеством, полученным из ответа на запрос, пока не понимаю как это сделать, поэтому сравниваю со значением из CreatedPost - 0.\r",
+							"\r",
+							"pm.test(\"Check body likes (кол-ко лайков owner менять не может)\", function () {\r",
+							"    pm.expect(jsonData.likes).to.eql(0);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body link\", function () {\r",
+							"    pm.expect(jsonData.link).to.eql(\"https://zora.org\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags is array\", function () {\r",
+							"    pm.expect(jsonData.tags).to.be.an('array')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[0]\", function () {\r",
+							"    pm.expect(jsonData.tags[0]).to.eql(\"minus\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[1]\", function () {\r",
+							"    pm.expect(jsonData.tags[1]).to.eql(\"excepturi\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body tags[2] is undefined\", function () {\r",
+							"    pm.expect(jsonData.tags[2]).to.be.an('undefined')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body text\", function () {\r",
+							"    pm.expect(jsonData.text).to.eql(\"Error perferendis perspiciatis accusamus ipsum autem consequuntur est.\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body publishDate is string\", function () {\r",
+							"    pm.expect(jsonData.publishDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body updatedDate is string\", function () {\r",
+							"    pm.expect(jsonData.updatedDate).to.be.a('string')\r",
+							"});\r",
+							"\r",
+							"//Объект owner. Несмотря на то, что в запросе указано неправильное owner - \"60d0fe4f5311236168a109ca1\", ответ приходит с правильным ответом.\r",
+							"\r",
+							"pm.test(\"Check body owner.id\", function () {\r",
+							"    pm.expect(jsonData.owner.id).to.eql(\"60d0fe4f5311236168a109ca\")\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.title\", function () {\r",
+							"    pm.expect(jsonData.owner.title).to.eql(\"ms\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.firstName\", function () {\r",
+							"    pm.expect(jsonData.owner.firstName).to.eql(\"Sara\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.lastName\", function () {\r",
+							"    pm.expect(jsonData.owner.lastName).to.eql(\"Andersen\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Check body owner.picture\", function () {\r",
+							"    pm.expect(jsonData.owner.picture).to.eql(\"https://randomuser.me/api/portraits/women/58.jpg\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"image\": \"https://s1.1zoom.ru/big7/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_2560x1600.jpg\",\r\n    \"likes\": 5,\r\n    \"link\": \"https://zora.org\",\r\n    \"tags\": [\r\n        \"minus\",\r\n        \"excepturi\"\r\n    ],\r\n    \"text\": \"Error perferendis perspiciatis accusamus ipsum autem consequuntur est.\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/post/{{post_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						"{{post_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePost",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name is OK\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Deleted post id\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.id).to.eql(pm.collectionVariables.get(\"post_id\"));\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/{{post_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						"{{post_id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "post_id",
+			"value": ""
+		}
+	]
+}
