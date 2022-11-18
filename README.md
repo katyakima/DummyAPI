@@ -316,3 +316,7 @@ picture: string(url)
 //Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
 Загрузить МК в репозиторий
 
+## Тест-кейсы
+
+В этой [Google.Таблице](https://docs.google.com/spreadsheets/d/1mTMu9f7VMrH6kGZej4_bimZa1AZvG6hpIVeUP13V-3c/edit?usp=sharing) представлены примеры оформления Чек-листов и Тест-кейсов к  проекту DummyAPI. Более подробно рассмотрены объекты: UPDATE User, UPDATE User Location и DELETE User.
+
