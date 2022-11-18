@@ -1,0 +1,5326 @@
+{
+	"info": {
+		"_postman_id": "852a1dad-e5b4-43a2-8b90-ddd78193eb31",
+		"name": "DummyAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23089379"
+	},
+	"item": [
+		{
+			"name": "User Data",
+			"item": [
+				{
+					"name": "GET list",
+					"item": [
+						{
+							"name": "GET list page 1 limit 10",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=1&limit=10",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET list page 1 limit 5",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=1&limit=10",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET list limit 0",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=1&limit=0",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "0"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET list limit 4",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=1&limit=4",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "4"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET list limit 5",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=1&limit=5",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET list page 0",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user?page=0&limit=5",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET User by id",
+					"item": [
+						{
+							"name": "GET /user/:id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user/630e49823a1287dfd81f7eca",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user",
+										"630e49823a1287dfd81f7eca"
+									],
+									"query": [
+										{
+											"key": "api-key",
+											"value": "630e2c4445302f3f6ba32960",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CREATE User",
+					"item": [
+						{
+							"name": "Create User full",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"mr\",\r\n    \"firstName\": \"Edward\",\r\n    \"lastName\": \"Cullen\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"ekasterdinatesttDsgd2022@mail.ru\",\r\n    \"dateOfBirth\": \"1/2/1900\",\r\n    \"phone\": \"79200120320\",\r\n    \"picture\": \"http://ya.ru\",\r\n    \"location\": {\r\n        \"street\": \"ul. Gagarina\",\r\n        \"city\": \"Samara\",\r\n        \"state\": \"Samara\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user/create/",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user",
+										"create",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "apikey",
+						"apikey": [
+							{
+								"key": "value",
+								"value": "630e2c4445302f3f6ba32960",
+								"type": "string"
+							},
+							{
+								"key": "key",
+								"value": "api-key",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "UPDATE User",
+					"item": [
+						{
+							"name": "method",
+							"item": [
+								{
+									"name": "PUT correct",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"Bella\",\r\n    \"lastName\": \"Swan\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT incorrect",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"Bella1\",\r\n    \"lastName\": \"Swan\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/630e49823a1287dfd81f7e11",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"630e49823a1287dfd81f7e11"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "title",
+							"item": [
+								{
+									"name": "PUT mrs",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"title\": \"mrs\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT miss",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"title\": \"miss\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT dr",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"title\": \"dr\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT null",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"title\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT incorrect granny",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"title\": \"granny\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "firstName",
+							"item": [
+								{
+									"name": "PUT firstName null",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 1",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName \": \"a\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314d3d3d395a58c0780dfc5",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314d3d3d395a58c0780dfc5"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 2",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"fd\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 3",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"fd1\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 49",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFB\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 50",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBs\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName 51",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBss\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName only symb",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"%;№:\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT firstName only numbers",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"firstName\": \"12345\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "lastName",
+							"item": [
+								{
+									"name": "PUT lastName null",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 1",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"h\"\r\n\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 2",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"hF\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 3",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"hFf\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 49",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFB\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 50",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBd\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName 51",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBdd\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName only symb",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"%;№:\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT lastName only numbers",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"lastName\": \"12345\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "gender",
+							"item": [
+								{
+									"name": "PUT gender male",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"gender\": \"male\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT gender female",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"gender\": \"female\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT gender other",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"gender\": \"other\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT gender null",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"gender\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT gender cat",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"gender\": \"cat\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "email",
+							"item": [
+								{
+									"name": "PUT email incorrect",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"mail@mail.ru\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "dateOfBirth",
+							"item": [
+								{
+									"name": "PUT dateOfBirth 1/1/1899",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"dateOfBirth\": \"1/1/1899\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT dateOfBirth 1/1/1990",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"dateOfBirth\": \"1/1/1900\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT dateOfBirth 1/12/1901",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"dateOfBirth\": \"1/12/1901\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT dateOfBirth today",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"dateOfBirth\": \"4/09/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT dateOfBirth tommorow",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"dateOfBirth\": \"6/09/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "phone",
+							"item": [
+								{
+									"name": "PUT phone correct",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone\": \"892701203333\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT phone char",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone\": \"dsjfkjsdhf\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "picture",
+							"item": [
+								{
+									"name": "PUT picture correct",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"picture\": \"https://www.tinydog.ru/wp-content/uploads/2016/05/Korgi.jpg\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT picture incorrect",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"picture\": \",sdnf,jhwkjfbjw\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "UPDATE User location",
+							"item": [
+								{
+									"name": "street",
+									"item": [
+										{
+											"name": "PUT street null",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 4",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"ghrt\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 5",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"hhhyy\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 6",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"privet\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 99",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBHBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBdd\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 100",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBHBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbdgvjksJFBdd\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street 101",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbgvjksJFBHBKajkfbKDNBvjkBASfjkBKJbkJBEJKDBefknrsbdgvjksJFBdd1\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street only numbers",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"12345\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT street only symb",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"street\": \"!#№;%\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "city",
+									"item": [
+										{
+											"name": "PUT city null",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 1",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"w\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 2",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"ww\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 3",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"wdw\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 29",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"HBKajkfbKDNBvjkBASfjkBKJbkJB\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 30",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBs\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city 31",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBse\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city only numbers",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"12345\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT city only symb",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"city\": \"!#№;%\"\r\n}\r\n}\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "state",
+									"item": [
+										{
+											"name": "PUT state null",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 1",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"d\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 2",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"ds\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 3",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"gfd\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 29",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"HBKajkfbKDNBvjkBASfjkBKJbkJB\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 30",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBv\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state 31",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBvd\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state only numbers",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"12345\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT state only symb",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"state\": \"!#№;%\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "country",
+									"item": [
+										{
+											"name": "PUT country null",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 1",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"d\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 2",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"df\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 3",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"dff\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 29",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"HBKajkfbKDNBvjkBASfjkBKJbkJB\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 30",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBf\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country 31",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"HBKajkfbKDNBvjkBASfjkBKJbkJBdf\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country only numbers",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"12345\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT country only symb",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"country\": \"!#№;%\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "timezone",
+									"item": [
+										{
+											"name": "PUT timezone correct",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"timezone\": \"+7:00\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT timezone null",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"timezone\": \"\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "PUT timezone incorrect",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "app-id",
+														"value": "630e2c4445302f3f6ba32960",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n  \"location\": {\r\n        \"timezone\": \"wefqweqwef\"\r\n}\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+													"protocol": "https",
+													"host": [
+														"dummyapi",
+														"io"
+													],
+													"path": [
+														"data",
+														"v1",
+														"user",
+														"6314c4b0d395a5d90880d68a"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "PUT location full",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"location\": {\r\n        \"street\": \"ul. Gagarina\",\r\n        \"city\": \"Samara\",\r\n        \"state\": \"Samara\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT location 2 field",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "app-id",
+												"value": "630e2c4445302f3f6ba32960",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"location\": {\r\n        \"street\": \"ul. Gagarina 1138\",\r\n        \"city\": \"Moscow\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyapi.io/data/v1/user/6314c4b0d395a5d90880d68a",
+											"protocol": "https",
+											"host": [
+												"dummyapi",
+												"io"
+											],
+											"path": [
+												"data",
+												"v1",
+												"user",
+												"6314c4b0d395a5d90880d68a"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "DELETE User",
+					"item": [
+						{
+							"name": "DELETE /user/:id",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user/6315055d08cf4c7f2db0ab0c",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user",
+										"6315055d08cf4c7f2db0ab0c"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET info from deleted user",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user/6315055d08cf4c7f2db0ab0c",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user",
+										"6315055d08cf4c7f2db0ab0c"
+									],
+									"query": [
+										{
+											"key": "api-key",
+											"value": "630e2c4445302f3f6ba32960",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE incorrect id",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "app-id",
+										"value": "630e2c4445302f3f6ba32960",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://dummyapi.io/data/v1/user/6315055d08cf4c7f2db0ab0mdkkec",
+									"protocol": "https",
+									"host": [
+										"dummyapi",
+										"io"
+									],
+									"path": [
+										"data",
+										"v1",
+										"user",
+										"6315055d08cf4c7f2db0ab0mdkkec"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post Data",
+			"item": [
+				{
+					"name": "GetPostList",
+					"item": [
+						{
+							"name": "method",
+							"item": [
+								{
+									"name": "GetPostList(GET)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(POST)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "page",
+							"item": [
+								{
+									"name": "GetPostList page=0",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=0",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList page=1",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=1",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList page=999",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=999",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "999"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList page=1000",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=1000",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1000"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList page=rrr",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=rrr",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "rrr"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList page=-1",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?page=-1",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "-1"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "limit",
+							"item": [
+								{
+									"name": "GetPostList limit=\"\"",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": ""
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=0",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=0",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=4",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=4",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "4"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=5",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=5",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "5"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=6",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=6",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "6"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=49",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=49",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "49"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=50",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=50",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "50"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=51",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=51",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "51"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList limit=rrr",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?limit=51",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "51"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "created",
+							"item": [
+								{
+									"name": "GetPostList created=",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?created=",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": ""
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList created=0",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?created=0",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList created=1",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?created=1",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList created=2",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?created=2",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList created=rrr",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/post?created=rrr",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "rrr"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "CreatePost",
+					"item": [
+						{
+							"name": "method",
+							"item": [
+								{
+									"name": "CreatePost(POST)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"adult Labrador\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(GET)",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"adult Labrador\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "id",
+							"item": [
+								{
+									"name": "CreatePost(with_id)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": \"635ff44e07df004c722c91c9\",\r\n    \"text\": \"adult Labrador\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(without_id)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"adult Labrador\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "text",
+							"item": [
+								{
+									"name": "CreatePost(without_text)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"qwert\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"qwert\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"qwerty\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"qwerty\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"qwerty1\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"qwerty1\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"49symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscin\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"50symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"51symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing1\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"999symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh venenatis cras sed. Magnis dis parturient montes nascetur ridiculus mus mauris vitae. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Cras pulvinar mattis nunc sed blandit. Feugiat vivamus at augue eget arcu dictum varius. Orci eu lobortis elementum nibh tellus molestie nunc. Pharetra convallis posuere morbi leo urna molestie at. In fermentum et sollicitudin ac orci phasellus egestas. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Vel pretium lectus quam id. Accumsan lacus vel facilisis volutpat. Dignissim enim sit amet venenatis urna cursus eget. Mi quis hendrerit dolor magna eget est. In nisl nisi scelerisque eu ultrices. Eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Sapien pellentesque habitant morbi tristique. Sapien faucibu\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"1000symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh venenatis cras sed. Magnis dis parturient montes nascetur ridiculus mus mauris vitae. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Cras pulvinar mattis nunc sed blandit. Feugiat vivamus at augue eget arcu dictum varius. Orci eu lobortis elementum nibh tellus molestie nunc. Pharetra convallis posuere morbi leo urna molestie at. In fermentum et sollicitudin ac orci phasellus egestas. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Vel pretium lectus quam id. Accumsan lacus vel facilisis volutpat. Dignissim enim sit amet venenatis urna cursus eget. Mi quis hendrerit dolor magna eget est. In nisl nisi scelerisque eu ultrices. Eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Sapien pellentesque habitant morbi tristique. Sapien faucibus\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"1001symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh venenatis cras sed. Magnis dis parturient montes nascetur ridiculus mus mauris vitae. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Cras pulvinar mattis nunc sed blandit. Feugiat vivamus at augue eget arcu dictum varius. Orci eu lobortis elementum nibh tellus molestie nunc. Pharetra convallis posuere morbi leo urna molestie at. In fermentum et sollicitudin ac orci phasellus egestas. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Vel pretium lectus quam id. Accumsan lacus vel facilisis volutpat. Dignissim enim sit amet venenatis urna cursus eget. Mi quis hendrerit dolor magna eget est. In nisl nisi scelerisque eu ultrices. Eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Sapien pellentesque habitant morbi tristique. Sapien faucibus1\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(text=\"Cyrillic\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"text\": \"Внезапно, действия представителей оппозиции превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. В рамках спецификации современных стандартов, независимые государства описаны максимально подробно. Господа, существующая теория однозначно определяет каждого участника как способного принимать собственные решения касаемо вывода текущих активов.\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "image",
+							"item": [
+								{
+									"name": "CreatePost(without_image)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"text\": \"adult Labrador\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(with_image_correct_url)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"image\": \"{{$randomImageUrl}}\",\r\n\"text\": \"adult Labrador\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(with_image_incorrect_url)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"image\": \"{{$randomLoremSentence}}\",\r\n\"text\": \"adult Labrador\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(with_image_incorrect_сyrillic_url)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"image\": \"Имеется спорная точка зрения, гласящая примерно\",\r\n\"text\": \"adult Labrador\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "likes",
+							"item": [
+								{
+									"name": "CreatePost(without_likes)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(likes=-1)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"likes\": \"-1\",\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(likes=0)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"likes\": 0,\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(likes=1)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"likes\": 1,\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(likes=10000)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"likes\": 10000,\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(likes=qwerty)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"likes\": \"qwerty\",\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "tags",
+							"item": [
+								{
+									"name": "CreatePost(without_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(1_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"tags\": [\r\n\"{{$randomLoremWord}}\"\r\n],\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(2_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"tags\": [\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\"\r\n],\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(3_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"tags\": [\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\"\r\n],\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(10_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"tags\": [\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\"\r\n],\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(100_tag)",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\"tags\": [\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\",\r\n\"{{$randomLoremWord}}\"\r\n],\r\n\"text\": \"{{$randomLoremSentence}}\",\r\n\"owner\": \"60d0fe4f5311236168a109ca\"\r\n} ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "link",
+							"item": [
+								{
+									"name": "CreatePost(link=\"\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"u\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"u\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"ru.ru\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"ru.ru\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"qru.ru\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"qru.ru\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"weru.ru\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"weru.ru\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"199symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaPretiumnibhipsumconsequatnislEumibibendumnequeegestascongueEstvelitegestasduiidornarearcuod.com\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"200symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"1Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaPretiumnibhipsumconsequatnislEumibibendumnequeegestascongueEstvelitegestasduiidornarearcuod.com\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"201symb\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"12Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaPretiumnibhipsumconsequatnislEumibibendumnequeegestascongueEstvelitegestasduiidornarearcuod.com\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "CreatePost(link=\"Кириллица\")",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"link\": \"Кириллица\",\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{host}}/post/create",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"post",
+												"create"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "CreatePost(with_publishDate)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"publishDate\": \"2000-01-01\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/post/create",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatePost(incorrect_id)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"{{$randomLoremSentence}}\",\r\n    \"owner\": \"ttt666\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/post/create",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
