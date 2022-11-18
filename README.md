@@ -15,9 +15,9 @@
    2. [POST](#post)
         1. [GET /post (Get Post List)](#get-post-get-post-list)
         2. [POST /post/create (Create New Post)](#post-postcreate-create-new-post)
-
+        3. [Майнд-карта DummyAPI_Post](#майнд-карта-dummyapi_post)
 2. [Майнд-карта](#Майнд-карта)
-3. [Тест-кейсы](#Тест-кейсы)
+3. [Тест-кейсы](#тест-кейсы)
 4. [Баг-репорты](#Баг-репорты)
 5. [Коллекции POSTMAN](#Коллекции-POSTMAN)
 6. [Автотесты](#Автотесты)
