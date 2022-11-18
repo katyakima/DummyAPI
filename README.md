@@ -326,3 +326,22 @@ picture: string(url)
 Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестирвоания проекта DummyAPI.
 
 ## Автотесты
+
+[Коллекция](https://github.com/katyakima/DummyAPI/blob/main/Post.postman_collection.json) из автотестов, созданных в POSTMAN и [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json).
+Была создана серия из автотестов по разным запросам для объекта **Post**
+
+### Get /post (Get Post List)
+
+С помощью сниппетов было создано 12 тестов для проверки: статус-кода, времени ответа, соотвествие структуры тела ответа массиву, количство данных в массиве, проверка некоторых полей, проверка количества ответов на одной странице и т.п.
+
+![Ответы для запроса GETPostList](https://i.imgur.com/j07d5Ki.jpeg)
+
+### Create /post (Create New Post)
+
+Было создано 25 тестов с проверкой обязательных и необязательных полей для заполнения, массива тегов, объекта owner (создатель поста) и была проведена проверка на отсутствие отображения некоторых полей - должно быть только краткая информация об owner.
+
+![Ответы для запроса CreatePost_1](https://i.imgur.com/uGX10T7.jpeg)  
+![Ответы для запроса CreatePost_2](https://i.imgur.com/rYfHQb5.jpeg)
+
+
+
