@@ -222,8 +222,7 @@ id: string
 
 ![Майнд-карта объекта User](https://i.imgur.com/kauJneC.jpeg)
 
-//Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
-Загрузить МК в репозиторий
+Скачать [Майнд-карту](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI_User.xmind) в формате *.xmind
 
 ### POST
 ___
@@ -312,8 +311,7 @@ picture: string(url)
 
 ![Майнд-карта объекта User](https://i.imgur.com/jRAWZsv.jpeg)
 
-//Скачать [майнд-карту](https://drive.google.com/file/d/16KTyHrCGwJSK4sO6ePOPvwgIojN8-KJL/view?usp=share_link) в формате *.xmind
-Загрузить МК в репозиторий
+Скачать [Майнд-карту](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI_Post.xmind) в формате *.xmind
 
 ## Тест-кейсы
 
@@ -325,7 +323,6 @@ picture: string(url)
 
 ## Коллекции POSTMAN
 
-
-
+Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестирвоания проекта DummyAPI.
 
 ## Автотесты
