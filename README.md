@@ -18,8 +18,13 @@
         3. [Майнд-карта DummyAPI_Post](#майнд-карта-dummyapi_post)
 2. [Тест-кейсы](#тест-кейсы)
 3. [Баг-репорты](#баг-репорты)
-4. [Коллекции POSTMAN](#Коллекции-POSTMAN)
-5. [Автотесты](#Автотесты)
+4. [Коллекции POSTMAN](#коллекции-postman)  
+5. [Автотесты](#автотесты)  
+    1. [GET /post (Get Post List)](#get-post-get-post-list-1)  
+    2. [CREATE /post (Create New Post)](#create-post-create-new-post)  
+    3. [GET /post/:id (Get Post Data By Id)](#get-postid-get-post-data-by-id)  
+    4. [UPDATE /post/:id (Update Post Data By Id)](#update-postid-update-post-data-by-id)  
+    5. [DELETE /post/:id (DELETE Post)](#delete-postid-delete-post)  
 
 ## Описание проекта
 
@@ -373,5 +378,5 @@ pm.collectionVariables.set("post_id", jsonData.id)
 
 ___
 
-При запуске всей коллекции сразу отрабатываются всего 79 тестов, из которых падает только один. **Check body likes**
+При запуске всей коллекции сразу отрабатываются всего 79 тестов, из которых падает только один - **Check body likes**.
 
