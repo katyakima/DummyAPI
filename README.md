@@ -326,6 +326,10 @@ picture: string(url)
 
 ![Чек-лист](https://i.imgur.com/4P8iWur.png)
 
+Пример Тест-кейса
+
+![Тест-кейс](https://i.imgur.com/BCxuUEX.png)
+
 ## Баг-репорты
 
 В данной [Google.Таблице](https://docs.google.com/spreadsheets/d/10XM0h7lcIhxQVV0z4RD2aIAfaBfj4bBh8bFTQ33ZNSg/edit?usp=sharing) представлены примеры баг-репортов, найденных при тестировании проекта DummyAPI.
