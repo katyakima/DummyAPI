@@ -322,6 +322,10 @@ picture: string(url)
 
 В этой [Google.Таблице](https://docs.google.com/spreadsheets/d/1mTMu9f7VMrH6kGZej4_bimZa1AZvG6hpIVeUP13V-3c/edit?usp=sharing) представлены примеры оформления Чек-листов и Тест-кейсов к  проекту DummyAPI. Более подробно рассмотрены объекты: UPDATE User, UPDATE User Location и DELETE User.
 
+Пример Чек-листа на тестирование запроса **UPDATE User**
+
+![Чек-лист](https://i.imgur.com/4P8iWur.png)
+
 ## Баг-репорты
 
 В данной [Google.Таблице](https://docs.google.com/spreadsheets/d/10XM0h7lcIhxQVV0z4RD2aIAfaBfj4bBh8bFTQ33ZNSg/edit?usp=sharing) представлены примеры баг-репортов, найденных при тестировании проекта DummyAPI.
