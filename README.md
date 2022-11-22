@@ -417,7 +417,7 @@ pm.test("Check limit is 20", function () {
 ```javascript
     var jsonData = pm.response.json();
 ```
-В данном тесте была так же задана переменная *{{post_id}}* - id вновь созданного пользователя - для использования её в последующих запросах.
+В данном тесте была так же задана переменная *{{post_id}}* - id вновь созданного пользователя. Переменная *{{post_id}}* занесена в переменные коллекции для использования её в последующих запросах, таких как GET post by *id*, UPDATE post by *id* и DELETE post by *id*.
 
 ```javascript
 pm.collectionVariables.set("post_id", jsonData.id)
