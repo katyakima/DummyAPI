@@ -326,6 +326,8 @@ picture: string(url)
 
 В данной [Google.Таблице](https://docs.google.com/spreadsheets/d/10XM0h7lcIhxQVV0z4RD2aIAfaBfj4bBh8bFTQ33ZNSg/edit?usp=sharing) представлены примеры баг-репортов, найденных при тестировании проекта DummyAPI.
 
+![Скрин одного из них](https://i.imgur.com/Izfy5Ce.png)
+
 ## Коллекции POSTMAN
 
 Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестирвоания проекта DummyAPI.
