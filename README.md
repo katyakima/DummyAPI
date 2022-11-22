@@ -330,7 +330,7 @@ picture: string(url)
 
 ## Коллекции POSTMAN
 
-Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестирвоания проекта DummyAPI.
+Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестироdания проекта DummyAPI.
 
 ## Автотесты
 
