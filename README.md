@@ -338,16 +338,73 @@ picture: string(url)
 
 ## Коллекции POSTMAN
 
-Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестироdания проекта DummyAPI.
+Здесь представлена [Коллекция POSTMAN](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_collection.json) с тестированием объектов **User** и **Post**, а так же [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json) для тестирования проекта DummyAPI.
 
 ## Автотесты
 
 [Коллекция](https://github.com/katyakima/DummyAPI/blob/main/Post.postman_collection.json) из автотестов, созданных в POSTMAN и [окружение](https://github.com/katyakima/DummyAPI/blob/main/DummyAPI.postman_environment.json).
-Была создана серия из автотестов по разным запросам для объекта **Post**
+Была создана серия из автотестов по запросам GET, POST, PUT, DELETE для объекта **Post**
 
 ### GET /post (Get Post List)
 
 С помощью сниппетов было создано 12 тестов для проверки: статус-кода, времени ответа, соотвествие структуры тела ответа массиву, количство данных в массиве, проверка некоторых полей, проверка количества ответов на одной странице и т.п.
+
+Здесь и далее (в других тестах) используются тесты для проверки статус-кода, времени ответа и текста ответа.
+
+**Проверка статус-кода**
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
+**Проверка времени ответа**
+```javascript
+pm.test("Response time is less than 1s", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+```
+
+**Проверка текста статус-кода**
+```javascript
+pm.test("Status code name is OK", function () {
+    pm.response.to.have.status("OK");
+});
+```
+
+Далее проверяется тело ответа в соотвствии с параметрами запроса. В запросе GET Post List проверяем тело ответа.
+
+**Проверка тела ответа - полученные данные должны быть массивом**
+```javascript
+pm.test("Check body data is array", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.data).to.be.an('array')
+});
+```
+
+**Id первого элемента массива должен иметь формат "строка"**
+```javascript
+pm.test("Check body data[0].id is string", function () {
+    var jsonData = pm.response.json();
+  pm.expect(jsonData.data[0].id).to.be.an('String')
+});
+```
+
+**Email первого элемента массива не должен быть указан**, т.к. в теле ответа должнно быть превью (сокращенная информация) пользователя
+```javascript
+pm.test("Check body data[0].email is undefined", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.data[0].email).to.be.an('undefined')
+});
+```
+
+**Указано предельное количество пользователей для вывода на одной странице - 20**, значение по умолчанию (при отсутсвии указанных query params) - 20 пользователей.
+```javascript
+pm.test("Check limit is 20", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.limit).to.eql(20);
+});
+```
 
 ![Ответы для запроса GETPostList](https://i.imgur.com/j07d5Ki.jpeg)
 
@@ -355,6 +412,11 @@ picture: string(url)
 
 Было создано 25 тестов с проверкой обязательных и необязательных полей для заполнения, массива тегов, объекта owner (создатель поста) и была проведена проверка на отсутствие отображения некоторых полей - должна быть только краткая информация об owner.
 
+Как и в предыдущем тесте для запроса GET, здесь также использовалась переменная **jsonData**, которая позволила получить и сравнить данные из тела ответа с заданными данными в самом запросе(теле запроса).
+
+```javascript
+    var jsonData = pm.response.json();
+```
 В данном тесте была так же задана переменная *{{post_id}}* - id вновь созданного пользователя - для использования её в последующих запросах.
 
 ```javascript
